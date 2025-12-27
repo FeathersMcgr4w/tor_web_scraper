@@ -39,21 +39,21 @@ source .venv/bin/activate
 ```
 ---
 
-### 2) Install requirements:
+### 3) Install requirements:
 
 ```bash
 pip install -r requirements.txt
 ```
 ---
 
-### 3) Set your Base-URL
+### 4) Set your Base-URL
 
 Open the script "main.py" and place the Base-URL to be exploited.
 
 ![set_base_url](./images/set_base_url.png)
 ---
 
-### 4) Configure the total number of requests to execute
+### 5) Configure the total number of requests to execute
 
 Open the script "main.py" and place a desired number of requests to execute.
 By default TOTAL_REQUESTS = 500
@@ -62,7 +62,7 @@ This value can be modified according to your need.
 ![number_of_request_to_execute](./images/number_of_requests_execute.png)
 ---
 
-### 5) TOR configuration
+### 6) TOR configuration
 
 The scraping system uses the TOR (The Onion Router) network to anonymize HTTP requests and rotate IP addresses.
 It is required to configure 3 key parameters
