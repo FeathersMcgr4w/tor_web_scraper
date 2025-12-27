@@ -1,5 +1,6 @@
 ![tool_banner](./images/tor_scraper_banner.png)
-# 🤖 Tor Web Scraper 
+
+# 🧅 Tor Web Scraper 
 
 System created in Python to do web scraping through the Tor network.
 The tool is useful for scraping websites that contain the vulnerability of IDORs or URLs with sequential IDs.
@@ -48,6 +49,7 @@ pip install -r requirements.txt
 ### 3) Set your Base-URL
 
 Open the script "main.py" and place the Base-URL to be exploited.
+
 ![set_base_url](./images/set_base_url.png)
 ---
 
@@ -56,6 +58,7 @@ Open the script "main.py" and place the Base-URL to be exploited.
 Open the script "main.py" and place a desired number of requests to execute.
 By default TOTAL_REQUESTS = 500
 This value can be modified according to your need.
+
 ![number_of_request_to_execute](./images/number_of_requests_execute.png)
 ---
 
@@ -106,7 +109,13 @@ sudo systemctl restart tor
 ```
 **Step 3:** Use the password in the script
 The Python code uses the plain text password, NOT the hash:
+
 ![number_of_request_to_execute](./images/set_tor_password.png)
+
+---
+### ⚙️ TOR Scraper Running
+
+![scraper_running](./images/tor_scraper_running.png)
 
 ---
 
